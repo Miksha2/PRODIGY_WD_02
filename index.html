@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="stop.png" onclick="watchStop()">
+            <img src="start.png" onclick="watchStart()">
+            <img src="reset.png" onclick="watchReset()">
+            <img src="icon.webp" onclick="recordLap()">
+        </div>
+        <div class="laps">
+            <ul id="laps"></ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
